@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+//Criar um algoritmo (Fluxograma) que leia o saldo de uma aplicação e imprimir
+//o novo saldo, considerando um reajuste de 15%
+
 public class Main {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
