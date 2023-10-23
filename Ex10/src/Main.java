@@ -12,11 +12,16 @@ public class Main {
         System.out.println("Digite o número");
         double numero = teclado.nextDouble();
 
-        double numeroQuadrado = Math.pow(numero, 2);
-        double numeroRaizQuadrada = Math.sqrt(numero);
+        if (numero > 0){
+            double numeroQuadrado = Math.pow(numero, 2);
+            double numeroRaizQuadrada = Math.sqrt(numero);
 
-        System.out.printf("O número digitado ao quadrado é %.0f \n", numeroQuadrado);
-        System.out.printf("A raiz quadrada do número digitado é %.0f \n", numeroRaizQuadrada);
+            System.out.printf("O número digitado ao quadrado é %.0f \n", numeroQuadrado);
+            System.out.printf("A raiz quadrada do número digitado é %.0f \n", numeroRaizQuadrada);
+        }
+        else{
+            System.out.println("Digite um número maior que ZERO");
+        }
 
 
     }
